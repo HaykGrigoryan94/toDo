@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonClose {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.addButton {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.todo {
+    list-style-type: none;
+    margin:0 ;
+    padding: 0;
+}
+
+.toDoItems {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.toDoList {
+  border: 3px solid rgba(104, 102, 102, 0.247);
+  padding: 10px;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  
+}
